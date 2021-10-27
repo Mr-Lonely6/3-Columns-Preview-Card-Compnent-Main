@@ -1,0 +1,36 @@
+@import "variables", "config";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sedans {
+    background-color: $brightOrange;
+}
+
+.suvs {
+    background-color: $darkCyan;
+}
+
+.luxury {
+    background-color: $veryDarkCyan;
+}
+
+p {
+    color: $transparentWhiteParagraphs;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+    color: $veryLightGray;
+    text-transform: uppercase;
+}
+
+.btnColor {
+    background-color: $veryLightGray;
+}
